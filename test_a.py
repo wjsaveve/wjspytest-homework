@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import pytest
 import yaml
 
@@ -23,6 +24,10 @@ def test_answer2():
 def test_myanswaer(a, b):
     assert func(a) == b
 
+
+@pytest.mark.parametrize('a,b', [(1, 2), (3, 8), ('a1', 'b1')], ids=["第1组测试数据", "第2组测试数据", "第3组测试数据"])
+def test_myanswaer2(a, b):
+    assert func(a) == b
 
 @pytest.fixture()
 def login():
