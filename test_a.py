@@ -1,8 +1,14 @@
 import pytest
+import yaml
 
 
 def func(x):
     return x + 1
+
+
+@pytest.mark.parametrize("x, y", yaml.safe_load(open("./data.yml")))
+def test_myyaml(x, y):
+    assert func(x) == y
 
 
 def test_answer():
