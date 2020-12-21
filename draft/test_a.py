@@ -7,10 +7,15 @@ def func(x):
     return x + 1
 
 
-@pytest.mark.parametrize("x, y", yaml.safe_load(open("./data.yml")))
+@pytest.mark.parametrize("x, y", yaml.safe_load(open("data.yml")))
 def test_myyaml(x, y):
     assert func(x) == y
 
+
+@pytest.mark.parametrize("x", [1, 2, 3])
+@pytest.mark.parametrize("y", [11, 22, 33])
+def test_twoele(x, y):
+    print(x, "和", y)
 
 def test_answer():
     assert func(3) == 5
