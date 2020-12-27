@@ -1,0 +1,70 @@
+{
+  "uid": "bd4cbcc2d3d37d01",
+  "name": "test_myanswaer2[第1组测试数据]",
+  "fullName": "test_a#test_myanswaer2",
+  "historyId": "045d082c5ede973b491ab2840041651c",
+  "time": {
+    "start": 1609053552868,
+    "stop": 1609053552868,
+    "duration": 0
+  },
+  "status": "passed",
+  "flaky": false,
+  "newFailed": false,
+  "beforeStages": [],
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "suite",
+      "value": "test_a"
+    },
+    {
+      "name": "host",
+      "value": "WJ-PC"
+    },
+    {
+      "name": "thread",
+      "value": "8460-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_a"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "a",
+      "value": "1"
+    },
+    {
+      "name": "b",
+      "value": "2"
+    }
+  ],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "bd4cbcc2d3d37d01.json",
+  "parameterValues": [
+    "1",
+    "2"
+  ]
+}

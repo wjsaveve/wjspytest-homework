@@ -1,0 +1,42 @@
+{
+  "name": "test_print_param[参数2]",
+  "status": "passed",
+  "parameters": [
+    {
+      "name": "connect_db",
+      "value": "'参数2'"
+    }
+  ],
+  "start": 1609053581729,
+  "stop": 1609053581729,
+  "uuid": "b7270c70-9fd7-491d-8be0-8b8cb6c68f92",
+  "historyId": "0935e8cdc8f282d3dab7c1d1d830cd3d",
+  "testCaseId": "f76ea79d5d05e6d70656583db4709053",
+  "fullName": "test_yield#test_print_param",
+  "labels": [
+    {
+      "name": "suite",
+      "value": "test_yield"
+    },
+    {
+      "name": "host",
+      "value": "WJ-PC"
+    },
+    {
+      "name": "thread",
+      "value": "8460-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_yield"
+    }
+  ]
+}

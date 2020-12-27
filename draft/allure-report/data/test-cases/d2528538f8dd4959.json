@@ -1,0 +1,70 @@
+{
+  "uid": "d2528538f8dd4959",
+  "name": "test_twoele[11-2]",
+  "fullName": "test_a#test_twoele",
+  "historyId": "c98191fe0a2c93bdda71da25b4173d6e",
+  "time": {
+    "start": 1609053552646,
+    "stop": 1609053552646,
+    "duration": 0
+  },
+  "status": "passed",
+  "flaky": false,
+  "newFailed": false,
+  "beforeStages": [],
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "suite",
+      "value": "test_a"
+    },
+    {
+      "name": "host",
+      "value": "WJ-PC"
+    },
+    {
+      "name": "thread",
+      "value": "8460-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_a"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "x",
+      "value": "2"
+    },
+    {
+      "name": "y",
+      "value": "11"
+    }
+  ],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "d2528538f8dd4959.json",
+  "parameterValues": [
+    "2",
+    "11"
+  ]
+}

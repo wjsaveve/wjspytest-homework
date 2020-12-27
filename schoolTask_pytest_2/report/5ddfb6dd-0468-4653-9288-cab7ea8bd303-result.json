@@ -1,0 +1,54 @@
+{
+  "name": "test_mul[负数相乘]",
+  "status": "passed",
+  "parameters": [
+    {
+      "name": "a",
+      "value": "-1"
+    },
+    {
+      "name": "b",
+      "value": "-3"
+    },
+    {
+      "name": "ext",
+      "value": "3"
+    }
+  ],
+  "start": 1609054501446,
+  "stop": 1609054501446,
+  "uuid": "e742acb1-cbc9-4158-be45-15f958c25bd4",
+  "historyId": "5927f80c3736acae9e187a795c9ec146",
+  "testCaseId": "e235ee3c77715529d6383732648c5a84",
+  "fullName": "test_fix_task.TestCal#test_mul",
+  "labels": [
+    {
+      "name": "suite",
+      "value": "test_fix_task"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCal"
+    },
+    {
+      "name": "host",
+      "value": "WJ-PC"
+    },
+    {
+      "name": "thread",
+      "value": "11056-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_fix_task"
+    }
+  ]
+}

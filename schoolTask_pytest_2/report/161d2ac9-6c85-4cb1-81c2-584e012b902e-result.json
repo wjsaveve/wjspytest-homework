@@ -1,0 +1,54 @@
+{
+  "name": "test_div[负数相除]",
+  "status": "passed",
+  "parameters": [
+    {
+      "name": "a",
+      "value": "-3"
+    },
+    {
+      "name": "b",
+      "value": "-2"
+    },
+    {
+      "name": "ext",
+      "value": "1.5"
+    }
+  ],
+  "start": 1609054501465,
+  "stop": 1609054501465,
+  "uuid": "dbf8b422-a158-4ec3-8909-e4c2013cab26",
+  "historyId": "fd33c4d9f913c4b773ccc82fa1fa5681",
+  "testCaseId": "9e4e4dc2eeb56423bb67c0832b2499e2",
+  "fullName": "test_fix_task.TestCal#test_div",
+  "labels": [
+    {
+      "name": "suite",
+      "value": "test_fix_task"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCal"
+    },
+    {
+      "name": "host",
+      "value": "WJ-PC"
+    },
+    {
+      "name": "thread",
+      "value": "11056-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_fix_task"
+    }
+  ]
+}

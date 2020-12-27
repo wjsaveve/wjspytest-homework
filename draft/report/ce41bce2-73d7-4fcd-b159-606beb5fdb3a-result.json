@@ -1,0 +1,50 @@
+{
+  "name": "test_add[minus]",
+  "status": "passed",
+  "parameters": [
+    {
+      "name": "a",
+      "value": "-1"
+    },
+    {
+      "name": "b",
+      "value": "-2"
+    },
+    {
+      "name": "expected",
+      "value": "-3"
+    }
+  ],
+  "start": 1609053581710,
+  "stop": 1609053581710,
+  "uuid": "42ba7c6a-a7bb-4028-a02d-8116655b3552",
+  "historyId": "7997379c9c2b2867e8b286a31f442a22",
+  "testCaseId": "40d2ebef7493b26e6a827521cbbb233f",
+  "fullName": "test_yaml#test_add",
+  "labels": [
+    {
+      "name": "suite",
+      "value": "test_yaml"
+    },
+    {
+      "name": "host",
+      "value": "WJ-PC"
+    },
+    {
+      "name": "thread",
+      "value": "8460-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_yaml"
+    }
+  ]
+}

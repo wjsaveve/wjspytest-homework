@@ -1,0 +1,50 @@
+{
+  "name": "test_myanswaer2[第3组测试数据]",
+  "status": "broken",
+  "statusDetails": {
+    "message": "TypeError: can only concatenate str (not \"int\") to str",
+    "trace": "a = 'a1', b = 'b1'\n\n    @pytest.mark.parametrize('a,b', [(1, 2), (3, 8), ('a1', 'b1')], ids=[\"第1组测试数据\", \"第2组测试数据\", \"第3组测试数据\"])\n    def test_myanswaer2(a, b):\n>       assert func(a) == b\n\ntest_a.py:35: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nx = 'a1'\n\n    def func(x):\n>       return x + 1\nE       TypeError: can only concatenate str (not \"int\") to str\n\ntest_a.py:7: TypeError"
+  },
+  "parameters": [
+    {
+      "name": "a",
+      "value": "'a1'"
+    },
+    {
+      "name": "b",
+      "value": "'b1'"
+    }
+  ],
+  "start": 1609053552886,
+  "stop": 1609053552886,
+  "uuid": "b9c2a8c9-3277-4fa5-993c-531a1d68e033",
+  "historyId": "f494d3d4d7282c71648a48073c18e77b",
+  "testCaseId": "c76bac4dcc3d3f68cffa4579e038801a",
+  "fullName": "test_a#test_myanswaer2",
+  "labels": [
+    {
+      "name": "suite",
+      "value": "test_a"
+    },
+    {
+      "name": "host",
+      "value": "WJ-PC"
+    },
+    {
+      "name": "thread",
+      "value": "8460-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_a"
+    }
+  ]
+}

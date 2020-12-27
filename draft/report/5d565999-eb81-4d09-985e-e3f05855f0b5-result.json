@@ -1,0 +1,46 @@
+{
+  "name": "test_myyaml[2-3]",
+  "status": "passed",
+  "parameters": [
+    {
+      "name": "x",
+      "value": "2"
+    },
+    {
+      "name": "y",
+      "value": "3"
+    }
+  ],
+  "start": 1609053552627,
+  "stop": 1609053552627,
+  "uuid": "3ed5ae5f-9594-490e-8eba-a21b1d728d3a",
+  "historyId": "78f167359c08921eb514813bab11685d",
+  "testCaseId": "ee1498e04311d6f1781e6d93d4ef969e",
+  "fullName": "test_a#test_myyaml",
+  "labels": [
+    {
+      "name": "suite",
+      "value": "test_a"
+    },
+    {
+      "name": "host",
+      "value": "WJ-PC"
+    },
+    {
+      "name": "thread",
+      "value": "8460-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_a"
+    }
+  ]
+}

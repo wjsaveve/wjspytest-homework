@@ -1,0 +1,78 @@
+{
+  "uid": "f5a9c406c98c2f17",
+  "name": "test_myanswaer2[第2组测试数据]",
+  "fullName": "test_a#test_myanswaer2",
+  "historyId": "5b506df3fa0f5b2ba84743cb7748dcd0",
+  "time": {
+    "start": 1609053552874,
+    "stop": 1609053552874,
+    "duration": 0
+  },
+  "status": "failed",
+  "statusMessage": "AssertionError: assert 4 == 8\n  +4\n  -8",
+  "statusTrace": "a = 3, b = 8\n\n    @pytest.mark.parametrize('a,b', [(1, 2), (3, 8), ('a1', 'b1')], ids=[\"第1组测试数据\", \"第2组测试数据\", \"第3组测试数据\"])\n    def test_myanswaer2(a, b):\n>       assert func(a) == b\nE       assert 4 == 8\nE         +4\nE         -8\n\ntest_a.py:35: AssertionError",
+  "flaky": false,
+  "newFailed": false,
+  "beforeStages": [],
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "suite",
+      "value": "test_a"
+    },
+    {
+      "name": "host",
+      "value": "WJ-PC"
+    },
+    {
+      "name": "thread",
+      "value": "8460-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_a"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "a",
+      "value": "3"
+    },
+    {
+      "name": "b",
+      "value": "8"
+    }
+  ],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [
+      {
+        "name": "Product defects",
+        "matchedStatuses": [],
+        "flaky": false
+      }
+    ],
+    "tags": []
+  },
+  "source": "f5a9c406c98c2f17.json",
+  "parameterValues": [
+    "3",
+    "8"
+  ]
+}

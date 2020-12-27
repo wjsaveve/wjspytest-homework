@@ -1,0 +1,40 @@
+{
+  "name": "test_answer",
+  "status": "failed",
+  "statusDetails": {
+    "message": "AssertionError: assert 4 == 5\n  +4\n  -5",
+    "trace": "def test_answer():\n>       assert func(3) == 5\nE       assert 4 == 5\nE         +4\nE         -5\n\ntest_a.py:21: AssertionError"
+  },
+  "start": 1609053552721,
+  "stop": 1609053552722,
+  "uuid": "af9fc79f-0706-4124-8aca-b19bdc015c96",
+  "historyId": "58291783ea7b1c6e0d78f6f2133b6cd4",
+  "testCaseId": "b31acf737a8a52e32fdfa48a96d3179f",
+  "fullName": "test_a#test_answer",
+  "labels": [
+    {
+      "name": "suite",
+      "value": "test_a"
+    },
+    {
+      "name": "host",
+      "value": "WJ-PC"
+    },
+    {
+      "name": "thread",
+      "value": "8460-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_a"
+    }
+  ]
+}

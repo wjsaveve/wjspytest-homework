@@ -1,0 +1,54 @@
+{
+  "name": "test_sub[正数相减]",
+  "status": "passed",
+  "parameters": [
+    {
+      "name": "a",
+      "value": "3"
+    },
+    {
+      "name": "b",
+      "value": "2"
+    },
+    {
+      "name": "ext",
+      "value": "1"
+    }
+  ],
+  "start": 1609054501417,
+  "stop": 1609054501418,
+  "uuid": "169f5c1b-57fd-4e17-908d-3ea6be34ca73",
+  "historyId": "51282638aab57e07ccfa7f67203ed4fd",
+  "testCaseId": "b9cd3441b2e174cbd5397e6949c18937",
+  "fullName": "test_fix_task.TestCal#test_sub",
+  "labels": [
+    {
+      "name": "suite",
+      "value": "test_fix_task"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCal"
+    },
+    {
+      "name": "host",
+      "value": "WJ-PC"
+    },
+    {
+      "name": "thread",
+      "value": "11056-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_fix_task"
+    }
+  ]
+}

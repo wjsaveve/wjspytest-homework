@@ -1,0 +1,66 @@
+{
+  "uid": "406723ca8a93d511",
+  "name": "test_simple_assume",
+  "fullName": "test_forCJ#test_simple_assume",
+  "historyId": "f0ad5e5f6383c77fabcba6847a87b75a",
+  "time": {
+    "start": 1609053564977,
+    "stop": 1609053564975,
+    "duration": -2
+  },
+  "status": "failed",
+  "statusMessage": "pytest_assume.plugin.FailedAssumption: \n3 Failed Assumptions:\n\ntest_forCJ.py:7: AssumptionFailure\n>>\tpytest.assume(1 == 2)\nAssertionError: assert False\n\ntest_forCJ.py:8: AssumptionFailure\n>>\tpytest.assume(3 == 4)\nAssertionError: assert False\n\ntest_forCJ.py:9: AssumptionFailure\n>>\tpytest.assume(False)\nAssertionError: assert False",
+  "statusTrace": "tp = <class 'pytest_assume.plugin.FailedAssumption'>, value = None, tb = None\n\n    def reraise(tp, value, tb=None):\n        try:\n            if value is None:\n                value = tp()\n            if value.__traceback__ is not tb:\n>               raise value.with_traceback(tb)\nE               pytest_assume.plugin.FailedAssumption: \nE               3 Failed Assumptions:\nE               \nE               test_forCJ.py:7: AssumptionFailure\nE               >>\tpytest.assume(1 == 2)\nE               AssertionError: assert False\nE               \nE               test_forCJ.py:8: AssumptionFailure\nE               >>\tpytest.assume(3 == 4)\nE               AssertionError: assert False\nE               \nE               test_forCJ.py:9: AssumptionFailure\nE               >>\tpytest.assume(False)\nE               AssertionError: assert False\n\n..\\venv\\lib\\site-packages\\six.py:702: FailedAssumption",
+  "flaky": false,
+  "newFailed": false,
+  "beforeStages": [],
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "suite",
+      "value": "test_forCJ"
+    },
+    {
+      "name": "host",
+      "value": "WJ-PC"
+    },
+    {
+      "name": "thread",
+      "value": "8460-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_forCJ"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [
+      {
+        "name": "Product defects",
+        "matchedStatuses": [],
+        "flaky": false
+      }
+    ],
+    "tags": []
+  },
+  "source": "406723ca8a93d511.json",
+  "parameterValues": []
+}

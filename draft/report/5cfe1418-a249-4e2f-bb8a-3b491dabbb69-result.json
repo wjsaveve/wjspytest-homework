@@ -1,0 +1,46 @@
+{
+  "name": "test_myanswaer2[第1组测试数据]",
+  "status": "passed",
+  "parameters": [
+    {
+      "name": "a",
+      "value": "1"
+    },
+    {
+      "name": "b",
+      "value": "2"
+    }
+  ],
+  "start": 1609053552868,
+  "stop": 1609053552868,
+  "uuid": "7d39bfa7-a9bc-40b4-a6b3-2c9b3355088e",
+  "historyId": "045d082c5ede973b491ab2840041651c",
+  "testCaseId": "c76bac4dcc3d3f68cffa4579e038801a",
+  "fullName": "test_a#test_myanswaer2",
+  "labels": [
+    {
+      "name": "suite",
+      "value": "test_a"
+    },
+    {
+      "name": "host",
+      "value": "WJ-PC"
+    },
+    {
+      "name": "thread",
+      "value": "8460-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_a"
+    }
+  ]
+}

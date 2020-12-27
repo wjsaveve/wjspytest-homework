@@ -1,0 +1,50 @@
+{
+  "name": "test_myanswaer2[第2组测试数据]",
+  "status": "failed",
+  "statusDetails": {
+    "message": "AssertionError: assert 4 == 8\n  +4\n  -8",
+    "trace": "a = 3, b = 8\n\n    @pytest.mark.parametrize('a,b', [(1, 2), (3, 8), ('a1', 'b1')], ids=[\"第1组测试数据\", \"第2组测试数据\", \"第3组测试数据\"])\n    def test_myanswaer2(a, b):\n>       assert func(a) == b\nE       assert 4 == 8\nE         +4\nE         -8\n\ntest_a.py:35: AssertionError"
+  },
+  "parameters": [
+    {
+      "name": "a",
+      "value": "3"
+    },
+    {
+      "name": "b",
+      "value": "8"
+    }
+  ],
+  "start": 1609053552874,
+  "stop": 1609053552874,
+  "uuid": "e7c5fbbd-aa7a-4e4d-ae20-d020994bbf07",
+  "historyId": "5b506df3fa0f5b2ba84743cb7748dcd0",
+  "testCaseId": "c76bac4dcc3d3f68cffa4579e038801a",
+  "fullName": "test_a#test_myanswaer2",
+  "labels": [
+    {
+      "name": "suite",
+      "value": "test_a"
+    },
+    {
+      "name": "host",
+      "value": "WJ-PC"
+    },
+    {
+      "name": "thread",
+      "value": "8460-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_a"
+    }
+  ]
+}

@@ -1,0 +1,208 @@
+{
+  "uid": "f82479dc89b55486",
+  "name": "test_b",
+  "fullName": "test_tear.TestUPDM#test_b",
+  "historyId": "155e6a3ee8bd8747940250b7f320dee0",
+  "time": {
+    "start": 1609053581692,
+    "stop": 1609053581693,
+    "duration": 1
+  },
+  "status": "passed",
+  "flaky": false,
+  "newFailed": false,
+  "beforeStages": [
+    {
+      "name": "login",
+      "time": {
+        "start": 1609053581691,
+        "stop": 1609053581691,
+        "duration": 0
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "stepsCount": 0,
+      "hasContent": false,
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false
+    },
+    {
+      "name": "xunit_setup_function_fixture_draft.test_tear",
+      "time": {
+        "start": 1609053581690,
+        "stop": 1609053581690,
+        "duration": 0
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "stepsCount": 0,
+      "hasContent": false,
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false
+    },
+    {
+      "name": "xunit_setup_module_fixture_draft.test_tear",
+      "time": {
+        "start": 1609053581648,
+        "stop": 1609053581649,
+        "duration": 1
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "stepsCount": 0,
+      "hasContent": false,
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false
+    },
+    {
+      "name": "xunit_setup_method_fixture_TestUPDM",
+      "time": {
+        "start": 1609053581690,
+        "stop": 1609053581691,
+        "duration": 1
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "stepsCount": 0,
+      "hasContent": false,
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false
+    },
+    {
+      "name": "xunit_setup_class_fixture_TestUPDM",
+      "time": {
+        "start": 1609053581664,
+        "stop": 1609053581664,
+        "duration": 0
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "stepsCount": 0,
+      "hasContent": false,
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false
+    }
+  ],
+  "afterStages": [
+    {
+      "name": "xunit_setup_function_fixture_draft.test_tear::0",
+      "time": {
+        "start": 1609053581696,
+        "stop": 1609053581696,
+        "duration": 0
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "stepsCount": 0,
+      "hasContent": false,
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false
+    },
+    {
+      "name": "xunit_setup_module_fixture_draft.test_tear::0",
+      "time": {
+        "start": 1609053581698,
+        "stop": 1609053581698,
+        "duration": 0
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "stepsCount": 0,
+      "hasContent": false,
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false
+    },
+    {
+      "name": "xunit_setup_method_fixture_TestUPDM::0",
+      "time": {
+        "start": 1609053581694,
+        "stop": 1609053581695,
+        "duration": 1
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "stepsCount": 0,
+      "hasContent": false,
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false
+    },
+    {
+      "name": "xunit_setup_class_fixture_TestUPDM::0",
+      "time": {
+        "start": 1609053581697,
+        "stop": 1609053581697,
+        "duration": 0
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "stepsCount": 0,
+      "hasContent": false,
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false
+    }
+  ],
+  "labels": [
+    {
+      "name": "suite",
+      "value": "test_tear"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestUPDM"
+    },
+    {
+      "name": "host",
+      "value": "WJ-PC"
+    },
+    {
+      "name": "thread",
+      "value": "8460-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_tear"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "f82479dc89b55486.json",
+  "parameterValues": []
+}

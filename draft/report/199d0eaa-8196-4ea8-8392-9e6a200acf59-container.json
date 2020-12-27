@@ -1,0 +1,24 @@
+{
+  "uuid": "4eeebf57-6ef2-4bd3-b8df-0562c52efbab",
+  "children": [
+    "f5922026-8429-44d7-b569-4edfac5145d6"
+  ],
+  "befores": [
+    {
+      "name": "connect_db",
+      "status": "passed",
+      "start": 1609053581724,
+      "stop": 1609053581724
+    }
+  ],
+  "afters": [
+    {
+      "name": "connect_db::0",
+      "status": "passed",
+      "start": 1609053581725,
+      "stop": 1609053581725
+    }
+  ],
+  "start": 1609053581724,
+  "stop": 1609053581725
+}

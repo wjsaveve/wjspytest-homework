@@ -1,0 +1,199 @@
+{
+  "uid": "904e9505f0910377",
+  "name": "test_a[11]",
+  "fullName": "test_tear.TestUPDM#test_a",
+  "historyId": "715246c63f314622e414881ab422b483",
+  "time": {
+    "start": 1609053581666,
+    "stop": 1609053581666,
+    "duration": 0
+  },
+  "status": "passed",
+  "flaky": false,
+  "newFailed": false,
+  "beforeStages": [
+    {
+      "name": "xunit_setup_module_fixture_draft.test_tear",
+      "time": {
+        "start": 1609053581648,
+        "stop": 1609053581649,
+        "duration": 1
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "stepsCount": 0,
+      "hasContent": false,
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false
+    },
+    {
+      "name": "xunit_setup_method_fixture_TestUPDM",
+      "time": {
+        "start": 1609053581665,
+        "stop": 1609053581665,
+        "duration": 0
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "stepsCount": 0,
+      "hasContent": false,
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false
+    },
+    {
+      "name": "xunit_setup_class_fixture_TestUPDM",
+      "time": {
+        "start": 1609053581664,
+        "stop": 1609053581664,
+        "duration": 0
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "stepsCount": 0,
+      "hasContent": false,
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false
+    },
+    {
+      "name": "xunit_setup_function_fixture_draft.test_tear",
+      "time": {
+        "start": 1609053581664,
+        "stop": 1609053581665,
+        "duration": 1
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "stepsCount": 0,
+      "hasContent": false,
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false
+    }
+  ],
+  "afterStages": [
+    {
+      "name": "xunit_setup_module_fixture_draft.test_tear::0",
+      "time": {
+        "start": 1609053581698,
+        "stop": 1609053581698,
+        "duration": 0
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "stepsCount": 0,
+      "hasContent": false,
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false
+    },
+    {
+      "name": "xunit_setup_method_fixture_TestUPDM::0",
+      "time": {
+        "start": 1609053581668,
+        "stop": 1609053581668,
+        "duration": 0
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "stepsCount": 0,
+      "hasContent": false,
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false
+    },
+    {
+      "name": "xunit_setup_class_fixture_TestUPDM::0",
+      "time": {
+        "start": 1609053581697,
+        "stop": 1609053581697,
+        "duration": 0
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "stepsCount": 0,
+      "hasContent": false,
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false
+    },
+    {
+      "name": "xunit_setup_function_fixture_draft.test_tear::0",
+      "time": {
+        "start": 1609053581669,
+        "stop": 1609053581669,
+        "duration": 0
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "stepsCount": 0,
+      "hasContent": false,
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false
+    }
+  ],
+  "labels": [
+    {
+      "name": "suite",
+      "value": "test_tear"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestUPDM"
+    },
+    {
+      "name": "host",
+      "value": "WJ-PC"
+    },
+    {
+      "name": "thread",
+      "value": "8460-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_tear"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "a",
+      "value": "11"
+    }
+  ],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "904e9505f0910377.json",
+  "parameterValues": [
+    "11"
+  ]
+}

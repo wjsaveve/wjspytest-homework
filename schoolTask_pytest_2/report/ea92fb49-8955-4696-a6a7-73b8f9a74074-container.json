@@ -1,0 +1,35 @@
+{
+  "uuid": "a5c75ae2-a33e-484c-a4c4-3f2dcbb29425",
+  "children": [
+    "1508875c-c30b-435b-99fc-c6a8e81a1eaf",
+    "3e3e3a8b-6e9d-4158-bd3c-535adcf7a3bf",
+    "c87dffb8-2a47-49b6-adf8-0508062c5fec",
+    "169f5c1b-57fd-4e17-908d-3ea6be34ca73",
+    "096c085a-1dab-489a-b94b-db37827029d9",
+    "189d055e-6647-467a-bc7f-ba5f7b9868c7",
+    "59572a09-2148-4934-83c5-e223ba6684c1",
+    "e742acb1-cbc9-4158-be45-15f958c25bd4",
+    "f75a37e2-5a82-4860-92db-5a24096f1cc2",
+    "1d3f7e61-2533-42eb-bac3-6f03e3c474f8",
+    "dbf8b422-a158-4ec3-8909-e4c2013cab26",
+    "9f5b795b-0cce-4809-8cbb-2c9de1f27cfa"
+  ],
+  "befores": [
+    {
+      "name": "myfixture",
+      "status": "passed",
+      "start": 1609054501396,
+      "stop": 1609054501397
+    }
+  ],
+  "afters": [
+    {
+      "name": "myfixture::0",
+      "status": "passed",
+      "start": 1609054501474,
+      "stop": 1609054501475
+    }
+  ],
+  "start": 1609054501396,
+  "stop": 1609054501475
+}

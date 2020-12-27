@@ -1,0 +1,36 @@
+{
+  "name": "test_answer2",
+  "status": "passed",
+  "start": 1609053552837,
+  "stop": 1609053552837,
+  "uuid": "7f635cfd-331d-4241-87d3-39dba6cdca6a",
+  "historyId": "b06bd10689fc2ec36dcdba5d645ff0ad",
+  "testCaseId": "0e8226dfdae4866c9fbc3d262174a6ad",
+  "fullName": "test_a#test_answer2",
+  "labels": [
+    {
+      "name": "suite",
+      "value": "test_a"
+    },
+    {
+      "name": "host",
+      "value": "WJ-PC"
+    },
+    {
+      "name": "thread",
+      "value": "8460-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_a"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "test_se",
+  "status": "passed",
+  "start": 1609053565264,
+  "stop": 1609053581634,
+  "uuid": "c4a77317-21dc-4cb1-87a6-71d42794dbf7",
+  "historyId": "7d31366496507acc486e0f1102214169",
+  "testCaseId": "bada62fe0f8da6985bbbf6a6ccebfd83",
+  "fullName": "test_selenium#test_se",
+  "labels": [
+    {
+      "name": "suite",
+      "value": "test_selenium"
+    },
+    {
+      "name": "host",
+      "value": "WJ-PC"
+    },
+    {
+      "name": "thread",
+      "value": "8460-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_selenium"
+    }
+  ]
+}

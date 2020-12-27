@@ -1,0 +1,158 @@
+{
+  "uid": "4b4757e66a1912dae1a509f688f20b0f",
+  "name": "categories",
+  "children": [
+    {
+      "name": "Product defects",
+      "children": [
+        {
+          "name": "AssertionError: assert 4 == 5\n  +4\n  -5",
+          "children": [
+            {
+              "name": "test_answer",
+              "uid": "e5c1f9f9d501c1b9",
+              "parentUid": "3e3c3d33a207e58b01323bca43f2fb11",
+              "status": "failed",
+              "time": {
+                "start": 1609053552721,
+                "stop": 1609053552722,
+                "duration": 1
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": []
+            }
+          ],
+          "uid": "3e3c3d33a207e58b01323bca43f2fb11"
+        },
+        {
+          "name": "AssertionError: assert 4 == 8\n  +4\n  -8",
+          "children": [
+            {
+              "name": "test_myanswaer[3-8]",
+              "uid": "f3369957f4f77269",
+              "parentUid": "d148502cd2a8fd8f2b2ae7c2a2d1356e",
+              "status": "failed",
+              "time": {
+                "start": 1609053552845,
+                "stop": 1609053552845,
+                "duration": 0
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "3",
+                "8"
+              ]
+            },
+            {
+              "name": "test_myanswaer2[第2组测试数据]",
+              "uid": "f5a9c406c98c2f17",
+              "parentUid": "d148502cd2a8fd8f2b2ae7c2a2d1356e",
+              "status": "failed",
+              "time": {
+                "start": 1609053552874,
+                "stop": 1609053552874,
+                "duration": 0
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "3",
+                "8"
+              ]
+            }
+          ],
+          "uid": "d148502cd2a8fd8f2b2ae7c2a2d1356e"
+        },
+        {
+          "name": "AssertionError: assert 1 == 3\n  +1\n  -3",
+          "children": [
+            {
+              "name": "test_one",
+              "uid": "4725d5328230ef3c",
+              "parentUid": "9c35edb34bdcebc9fb9708fd6431294f",
+              "status": "failed",
+              "time": {
+                "start": 1609053564970,
+                "stop": 1609053564970,
+                "duration": 0
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": []
+            }
+          ],
+          "uid": "9c35edb34bdcebc9fb9708fd6431294f"
+        },
+        {
+          "name": "pytest_assume.plugin.FailedAssumption: \n3 Failed Assumptions:\n\ntest_forCJ.py:7: AssumptionFailure\n>>\tpytest.assume(1 == 2)\nAssertionError: assert False\n\ntest_forCJ.py:8: AssumptionFailure\n>>\tpytest.assume(3 == 4)\nAssertionError: assert False\n\ntest_forCJ.py:9: AssumptionFailure\n>>\tpytest.assume(False)\nAssertionError: assert False",
+          "children": [
+            {
+              "name": "test_simple_assume",
+              "uid": "406723ca8a93d511",
+              "parentUid": "ffac5eee5e58df590ad128b1d921a830",
+              "status": "failed",
+              "time": {
+                "start": 1609053564977,
+                "stop": 1609053564975,
+                "duration": -2
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": []
+            }
+          ],
+          "uid": "ffac5eee5e58df590ad128b1d921a830"
+        }
+      ],
+      "uid": "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+    },
+    {
+      "name": "Test defects",
+      "children": [
+        {
+          "name": "TypeError: can only concatenate str (not \"int\") to str",
+          "children": [
+            {
+              "name": "test_myanswaer[a1-b1]",
+              "uid": "6d35389620eafdb3",
+              "parentUid": "e055865276aa8c01ebf150c81e5da6eb",
+              "status": "broken",
+              "time": {
+                "start": 1609053552857,
+                "stop": 1609053552857,
+                "duration": 0
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "'a1'",
+                "'b1'"
+              ]
+            },
+            {
+              "name": "test_myanswaer2[第3组测试数据]",
+              "uid": "996024df1db508dd",
+              "parentUid": "e055865276aa8c01ebf150c81e5da6eb",
+              "status": "broken",
+              "time": {
+                "start": 1609053552886,
+                "stop": 1609053552886,
+                "duration": 0
+              },
+              "flaky": false,
+              "newFailed": false,
+              "parameters": [
+                "'a1'",
+                "'b1'"
+              ]
+            }
+          ],
+          "uid": "e055865276aa8c01ebf150c81e5da6eb"
+        }
+      ],
+      "uid": "bdbf199525818fae7a8651db9eafe741"
+    }
+  ]
+}

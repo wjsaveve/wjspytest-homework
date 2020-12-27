@@ -1,0 +1,124 @@
+{
+  "uid": "99673889fd3abec0",
+  "name": "test_out2",
+  "fullName": "test_tear#test_out2",
+  "historyId": "c0e0cd220a4c6c497752c7eb0bb020da",
+  "time": {
+    "start": 1609053581659,
+    "stop": 1609053581660,
+    "duration": 1
+  },
+  "status": "passed",
+  "flaky": false,
+  "newFailed": false,
+  "beforeStages": [
+    {
+      "name": "xunit_setup_function_fixture_draft.test_tear",
+      "time": {
+        "start": 1609053581658,
+        "stop": 1609053581658,
+        "duration": 0
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "stepsCount": 0,
+      "hasContent": false,
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false
+    },
+    {
+      "name": "xunit_setup_module_fixture_draft.test_tear",
+      "time": {
+        "start": 1609053581648,
+        "stop": 1609053581649,
+        "duration": 1
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "stepsCount": 0,
+      "hasContent": false,
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false
+    }
+  ],
+  "afterStages": [
+    {
+      "name": "xunit_setup_function_fixture_draft.test_tear::0",
+      "time": {
+        "start": 1609053581660,
+        "stop": 1609053581660,
+        "duration": 0
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "stepsCount": 0,
+      "hasContent": false,
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false
+    },
+    {
+      "name": "xunit_setup_module_fixture_draft.test_tear::0",
+      "time": {
+        "start": 1609053581698,
+        "stop": 1609053581698,
+        "duration": 0
+      },
+      "status": "passed",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "stepsCount": 0,
+      "hasContent": false,
+      "attachmentsCount": 0,
+      "shouldDisplayMessage": false
+    }
+  ],
+  "labels": [
+    {
+      "name": "suite",
+      "value": "test_tear"
+    },
+    {
+      "name": "host",
+      "value": "WJ-PC"
+    },
+    {
+      "name": "thread",
+      "value": "8460-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_tear"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "99673889fd3abec0.json",
+  "parameterValues": []
+}

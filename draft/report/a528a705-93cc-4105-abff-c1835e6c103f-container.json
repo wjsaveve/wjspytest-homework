@@ -1,0 +1,24 @@
+{
+  "uuid": "0348a917-5122-4c32-bfec-3186d4c9133f",
+  "children": [
+    "7de69293-620d-457e-bc2d-089de094e4d8"
+  ],
+  "befores": [
+    {
+      "name": "xunit_setup_method_fixture_TestUPDM",
+      "status": "passed",
+      "start": 1609053581665,
+      "stop": 1609053581665
+    }
+  ],
+  "afters": [
+    {
+      "name": "xunit_setup_method_fixture_TestUPDM::0",
+      "status": "passed",
+      "start": 1609053581668,
+      "stop": 1609053581668
+    }
+  ],
+  "start": 1609053581665,
+  "stop": 1609053581668
+}

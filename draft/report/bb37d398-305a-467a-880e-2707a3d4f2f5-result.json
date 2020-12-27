@@ -1,0 +1,40 @@
+{
+  "name": "test_b",
+  "status": "passed",
+  "start": 1609053581692,
+  "stop": 1609053581693,
+  "uuid": "db14bee3-7b11-4e62-b2ab-6d57f19a7780",
+  "historyId": "155e6a3ee8bd8747940250b7f320dee0",
+  "testCaseId": "3506ae57d412b96eff2dc80f22fdff09",
+  "fullName": "test_tear.TestUPDM#test_b",
+  "labels": [
+    {
+      "name": "suite",
+      "value": "test_tear"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestUPDM"
+    },
+    {
+      "name": "host",
+      "value": "WJ-PC"
+    },
+    {
+      "name": "thread",
+      "value": "8460-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_tear"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "test_foo",
+  "status": "passed",
+  "start": 1609053581638,
+  "stop": 1609053581645,
+  "uuid": "b57ed69b-8364-4c68-a40f-8760e4e6357b",
+  "historyId": "8f6ea7a3bf3ca4724153df336f950a21",
+  "testCaseId": "21eb14e5b9f47e7ec271f9d69d997dce",
+  "fullName": "test_step#test_foo",
+  "labels": [
+    {
+      "name": "suite",
+      "value": "test_step"
+    },
+    {
+      "name": "host",
+      "value": "WJ-PC"
+    },
+    {
+      "name": "thread",
+      "value": "8460-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_step"
+    }
+  ]
+}

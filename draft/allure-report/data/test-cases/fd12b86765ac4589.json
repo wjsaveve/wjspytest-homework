@@ -1,0 +1,70 @@
+{
+  "uid": "fd12b86765ac4589",
+  "name": "test_myyaml[4-5]",
+  "fullName": "test_a#test_myyaml",
+  "historyId": "269de10eb0211d65ec347324cc2068ec",
+  "time": {
+    "start": 1609053552634,
+    "stop": 1609053552634,
+    "duration": 0
+  },
+  "status": "passed",
+  "flaky": false,
+  "newFailed": false,
+  "beforeStages": [],
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "suite",
+      "value": "test_a"
+    },
+    {
+      "name": "host",
+      "value": "WJ-PC"
+    },
+    {
+      "name": "thread",
+      "value": "8460-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_a"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "x",
+      "value": "4"
+    },
+    {
+      "name": "y",
+      "value": "5"
+    }
+  ],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "fd12b86765ac4589.json",
+  "parameterValues": [
+    "4",
+    "5"
+  ]
+}

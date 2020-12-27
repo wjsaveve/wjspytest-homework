@@ -1,0 +1,46 @@
+{
+  "name": "test_two[参数1]",
+  "status": "passed",
+  "parameters": [
+    {
+      "name": "myfixture",
+      "value": "'参数1'"
+    }
+  ],
+  "start": 1609053552917,
+  "stop": 1609053552918,
+  "uuid": "de2e235b-6183-42d9-aac3-21d37730337a",
+  "historyId": "789c3ca4eeed452b30512d48550bb888",
+  "testCaseId": "6d330262b58c22662164997aee41154b",
+  "fullName": "test_fix.Test_firstFile#test_two",
+  "labels": [
+    {
+      "name": "suite",
+      "value": "test_fix"
+    },
+    {
+      "name": "subSuite",
+      "value": "Test_firstFile"
+    },
+    {
+      "name": "host",
+      "value": "WJ-PC"
+    },
+    {
+      "name": "thread",
+      "value": "8460-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_fix"
+    }
+  ]
+}

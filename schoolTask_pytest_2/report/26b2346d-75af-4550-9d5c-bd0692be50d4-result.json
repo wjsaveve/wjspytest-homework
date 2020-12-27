@@ -1,0 +1,54 @@
+{
+  "name": "test_div[与0相除]",
+  "status": "passed",
+  "parameters": [
+    {
+      "name": "a",
+      "value": "9"
+    },
+    {
+      "name": "b",
+      "value": "0"
+    },
+    {
+      "name": "ext",
+      "value": "0"
+    }
+  ],
+  "start": 1609054501470,
+  "stop": 1609054501470,
+  "uuid": "9f5b795b-0cce-4809-8cbb-2c9de1f27cfa",
+  "historyId": "ed3ff2b3b79bb59b5ebdc2244b45a611",
+  "testCaseId": "9e4e4dc2eeb56423bb67c0832b2499e2",
+  "fullName": "test_fix_task.TestCal#test_div",
+  "labels": [
+    {
+      "name": "suite",
+      "value": "test_fix_task"
+    },
+    {
+      "name": "subSuite",
+      "value": "TestCal"
+    },
+    {
+      "name": "host",
+      "value": "WJ-PC"
+    },
+    {
+      "name": "thread",
+      "value": "11056-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_fix_task"
+    }
+  ]
+}

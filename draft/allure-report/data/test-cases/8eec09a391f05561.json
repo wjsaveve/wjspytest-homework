@@ -1,0 +1,58 @@
+{
+  "uid": "8eec09a391f05561",
+  "name": "test_foo",
+  "fullName": "test_step#test_foo",
+  "historyId": "8f6ea7a3bf3ca4724153df336f950a21",
+  "time": {
+    "start": 1609053581638,
+    "stop": 1609053581645,
+    "duration": 7
+  },
+  "status": "passed",
+  "flaky": false,
+  "newFailed": false,
+  "beforeStages": [],
+  "afterStages": [],
+  "labels": [
+    {
+      "name": "suite",
+      "value": "test_step"
+    },
+    {
+      "name": "host",
+      "value": "WJ-PC"
+    },
+    {
+      "name": "thread",
+      "value": "8460-MainThread"
+    },
+    {
+      "name": "framework",
+      "value": "pytest"
+    },
+    {
+      "name": "language",
+      "value": "cpython3"
+    },
+    {
+      "name": "package",
+      "value": "test_step"
+    },
+    {
+      "name": "resultFormat",
+      "value": "allure2"
+    }
+  ],
+  "parameters": [],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "8eec09a391f05561.json",
+  "parameterValues": []
+}
