@@ -33,8 +33,9 @@ class TestWexin:
         self.dr.get("https://work.weixin.qq.com/wework_admin/frame")
 
         # 切换到通讯录页面，进行添加用户
-        name = "王健" + time.strftime("%Y%m%d%H%M%S", time.localtime()) + "号"
-        count = "wj" + time.strftime("%Y%m%d%H%M%S", time.localtime())
+        codes = time.strftime("%m%d%H%M%S", time.localtime())
+        name = "王健" + codes + "号"
+        count = "wj" + codes
         phone = "180" + time.strftime("%m%d%M%S", time.localtime())
         self.dr.find_element_by_id('menu_contacts').click()
         self.dr.find_element_by_link_text("添加成员").click()
@@ -42,4 +43,9 @@ class TestWexin:
         self.dr.find_element(By.ID, "memberAdd_acctid").send_keys(count)
         self.dr.find_element(By.ID, "memberAdd_phone").send_keys(phone)
         self.dr.find_element_by_link_text("保存").click()
-        time.sleep(5)
+        time.sleep(2)
+        resultnames = []
+        eles = self.dr.find_elements(By.XPATH, '//*[@id="member_list"]/tr/td[2]')
+        for ele in eles:
+            resultnames.append(ele.get_attribute('title'))
+        assert name in resultnames
