@@ -1,4 +1,7 @@
 # -*- coding: utf-8 -*-
+import yaml
+from selenium import webdriver
+
 from draft.learn_page_modle.page.main_page import MainPage
 
 
@@ -7,14 +10,15 @@ class TestMainPage:
         print("setup开始")
         self.main_page = MainPage()
 
-        # opt = webdriver.ChromeOptions()
-        # opt.debugger_address = '127.0.0.1:9222'
-        # self.dr = webdriver.Chrome(options=opt)
-        # self.dr.implicitly_wait(5)
-        # self.dr.get("https://work.weixin.qq.com/wework_admin/frame")
-        # mycookie = self.dr.get_cookies()
-        # with open("cookie.yml", mode='w', encoding='UTF-8') as f:
-        #     yaml.dump(mycookie, f)
+    # def test_get_cookie(self):
+    #     opt = webdriver.ChromeOptions()
+    #     opt.debugger_address = '127.0.0.1:9222'
+    #     driver = webdriver.Chrome(options=opt)
+    #     driver.implicitly_wait(5)
+    #     driver.get("https://work.weixin.qq.com/wework_admin/frame")
+    #     mycookie = driver.get_cookies()
+    #     with open("cookie.yml", mode='w', encoding='UTF-8') as f:
+    #         yaml.dump(mycookie, f)
 
     def teardown_class(self):
         print("teardown结束")
