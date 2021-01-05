@@ -2,6 +2,8 @@
 import yaml
 from selenium import webdriver
 from selenium.webdriver.remote.webdriver import WebDriver
+from selenium.webdriver.support import expected_conditions
+from selenium.webdriver.support.wait import WebDriverWait
 
 
 class BasePage:
@@ -35,6 +37,12 @@ class BasePage:
             return self.dr.find_elements(*mystype)
         else:
             return self.dr.find_elements(by=mystype, value=myvalue)
+
+    def wait_click(self, locator, myvalue=None):
+        if myvalue is None:
+            return WebDriverWait(self.dr, 9).until(expected_conditions.element_to_be_clickable(*locator))
+        else:
+            return WebDriverWait(self.dr, 9).until(expected_conditions.element_to_be_clickable(locator))
 
     def quit(self):
         self.dr.quit()
