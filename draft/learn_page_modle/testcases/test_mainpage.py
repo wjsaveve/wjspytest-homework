@@ -1,6 +1,4 @@
 # -*- coding: utf-8 -*-
-import time
-
 import yaml
 from selenium import webdriver
 
@@ -31,10 +29,12 @@ class TestMainPage:
         print(resultnames)
         assert '王健' in resultnames
 
-    # def test_adduser_error(self):
-    #     resultnames = self.main_page.goto_AddUserPage().opt_add_user_fail()
-    #     print(resultnames)
-    #     assert '该帐号已被“王健”占有' == resultnames
+    @pytest.mark.parametrize("myaccount,myphone,res",
+                             [('WangJian', '18016010501', '该帐号已被“王健”占有'), ('wj010501', '18016387081', '该手机已被“王健”占有')])
+    def test_adduser_error(self, myaccount, myphone, res):
+        resultnames = self.main_page.goto_AddUserPage().opt_add_user_fail(myaccount, myphone)
+        print(resultnames)
+        assert res in resultnames
 
     def test_adduser_by_contact(self):
         res = self.main_page.goto_ContactPage().goto_AddUserPage().opt_add_user().opt_getuser()
