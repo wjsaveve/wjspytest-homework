@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+import time
+
 import yaml
 from selenium import webdriver
 
@@ -37,3 +39,7 @@ class TestMainPage:
     def test_adduser_by_contact(self):
         res = self.main_page.goto_ContactPage().goto_AddUserPage().opt_add_user().opt_getuser()
         assert "王健" in res
+
+    def test_adddepart(self):
+        res = self.main_page.goto_ContactPage().add_depart()
+        assert "新建部门成功" in res

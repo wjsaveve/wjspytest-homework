@@ -7,7 +7,7 @@ from draft.learn_page_modle.page.contact_page import ContactPage
 
 class MainPage(BasePage):
     _location_button_adduser = (By.CSS_SELECTOR, ".ww_indexImg_AddMember")
-    _location_button_contactlink = (By.CSS_SELECTOR, ".frame_nav_item")
+    _location_button_contactlink = (By.ID, "menu_contacts")
 
     def goto_ContactPage(self):
         '''
