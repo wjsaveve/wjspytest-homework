@@ -11,7 +11,8 @@ class TestAppiumByPytest():
             'appPackage': 'com.xueqiu.android',
             'appActivity': '.view.WelcomeActivityAlias',
             'noReset': True,
-            # 'dontStopAppOnReset': True
+            # 'dontStopAppOnReset': True,
+            'skipServerInstalltion': True,
             'unicodeKeyboard': True,
             'resetKeyboard': True
         }
