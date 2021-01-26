@@ -36,8 +36,12 @@ class TestContact:
         self.driver.find_element(MobileBy.XPATH,
                                  "//android.widget.TextView[@text='手动输入添加']").click()
         self.driver.find_element(MobileBy.XPATH,
-                                 "//android.widget.EditText[@resource-id='com.tencent.wework:id/b78' and @text='必填']") \
+                                 "//*[contains(@text,'姓名')]/..//android.widget.EditText[@text='必填']") \
             .send_keys(name)
+        self.driver.find_element(MobileBy.XPATH,
+                                 "//*[contains(@text,'性别')]/..//*[@text='男']").click()
+        self.driver.find_element(MobileBy.XPATH,
+                                 "//android.widget.TextView[@text='女']").click()
         self.driver.find_element(MobileBy.XPATH,
                                  "//android.widget.EditText[@text='手机号']") \
             .send_keys(phone)
