@@ -14,7 +14,7 @@ class TestWeiXinDaka():
         desired_caps["appActivity"] = ".launch.WwMainActivity"
         desired_caps["noReset"] = True
         desired_caps["ensureWebviewsHavePages"] = True
-        caps['settings[waitForIdleTimeout]'] = 0  # 设置等待页面空闲的等待时间
+        desired_caps['settings[waitForIdleTimeout]'] = 0  # 设置等待页面空闲的等待时间
 
         self.driver = webdriver.Remote('http://127.0.0.1:4723/wd/hub', desired_caps)
         self.driver.implicitly_wait(5)
