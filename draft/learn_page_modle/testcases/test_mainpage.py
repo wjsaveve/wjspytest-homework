@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
-import yaml
-from selenium import webdriver
+import pytest
 
 from draft.learn_page_modle.page.main_page import MainPage
 
