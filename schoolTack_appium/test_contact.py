@@ -40,6 +40,8 @@ class TestContact:
             .send_keys(name)
         self.driver.find_element(MobileBy.XPATH,
                                  "//*[contains(@text,'性别')]/..//*[@text='男']").click()
+        # WebDriverWait(self.dr, 9).until(
+        #     expected_conditions.element_to_be_clickable(MobileBy.XPATH, "//android.widget.TextView[@text='女']"))
         self.driver.find_element(MobileBy.XPATH,
                                  "//android.widget.TextView[@text='女']").click()
         self.driver.find_element(MobileBy.XPATH,

@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 # 创建时间：2020/12/25 0:14
-import pytest
 import yaml
 
 
@@ -30,4 +29,4 @@ def steps(path):
 
 
 def test_foo():
-    steps("./steps.yml")
+    steps("steps.yml")
