@@ -22,7 +22,6 @@ class ManuallyAddMembersPage(BasePage):
                              "//android.widget.TextView[@text='保存']")
 
     def opt_add_member_nolyRequired(self):
-        from schoolTack_appium.PO.page.add_member_menu_page import AddMemberMenuPage
         codes = time.strftime("%m%d%H%M%S", time.localtime())
         name = "王健" + codes + "号"
         phone = "180" + time.strftime("%m%d%M%S", time.localtime())
@@ -34,4 +33,4 @@ class ManuallyAddMembersPage(BasePage):
         self.find_and_click(self._location_button_depart)
         self.find_and_click(self._location_button_depart_set_ok)
         self.find_and_click(self._location_button_save)
-        return AddMemberMenuPage(self.driver)
+        return self.get_toast_text()

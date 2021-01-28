@@ -39,3 +39,17 @@ class BasePage:
 
     def quit(self):
         self.driver.quit()
+
+    def get_toast_text(self):
+        result = self.find(MobileBy.XPATH, "//*[@class='android.widget.Toast']").text
+        print("当前Toast的信息为：" + result)
+        return result
+
+    def swip_find(self, by, locator):
+        self.driver.implicitly_wait(1)
+        eles = self.driver.find_elements(by, locator)
+        while len(eles) == 0:
+            self.driver.swipe(0, 600, 0, 400)
+            eles = self.driver.find_elements(by, locator)
+        self.driver.implicitly_wait(5)
+        return eles[0]

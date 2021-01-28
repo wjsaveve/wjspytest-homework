@@ -13,8 +13,9 @@ class TestAddMemberByManually():
 
     def test_add_member_byManually(self):
         self.app.start()
-        self.app.goto_message_page() \
+        result = self.app.goto_message_page() \
             .goto_address_book_page() \
             .goto_add_member_menu_page() \
             .goto_manually_add_members_page() \
             .opt_add_member_nolyRequired()
+        assert result == '添加成功'
