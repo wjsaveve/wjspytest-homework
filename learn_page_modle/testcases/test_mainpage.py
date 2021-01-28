@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import pytest
 
-from draft.learn_page_modle.page.main_page import MainPage
+from learn_page_modle.page.main_page import MainPage
 
 
 class TestMainPage:
