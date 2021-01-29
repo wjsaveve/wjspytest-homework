@@ -4,16 +4,31 @@ from appium.webdriver.webdriver import WebDriver
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
 
+from test_frame.black_list import BlackList
+
 
 class BasePage:
     def __init__(self, base_driver: WebDriver = None):
         self.driver = base_driver
+        self.black_list = BlackList().get_black_list()
 
     def find(self, mystype, myvalue=None):
-        if myvalue is None:
-            return self.driver.find_element(*mystype)
-        else:
-            return self.driver.find_element(by=mystype, value=myvalue)
+        try:
+            if myvalue is None:
+                return self.driver.find_element(*mystype)
+            else:
+                return self.driver.find_element(by=mystype, value=myvalue)
+        except Exception as e:
+            for black in self.black_list:
+                eles = self.finds(black)
+                if len(eles) > 0:
+                    # 对黑名单元素进行点击，可以拓展
+                    eles[0].click()
+                    if myvalue is None:
+                        return self.driver.find_element(*mystype)
+                    else:
+                        return self.driver.find_element(by=mystype, value=myvalue)
+            raise e
 
     def find_and_click(self, mystype, myvalue=None):
         self.find(mystype, myvalue).click()
