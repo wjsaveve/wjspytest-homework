@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+import time
+
 import yaml
 from appium.webdriver.common.mobileby import MobileBy
 from appium.webdriver.webdriver import WebDriver
@@ -59,14 +61,26 @@ class BasePage:
         self.driver.implicitly_wait(5)
         return eles[0]
 
+    FIND = 'find'
+    ACTION = 'action'
+    FIND_AND_CLICK = 'find_and_click'
+    SEND_KEYS = 'send_keys'
+    VALYUE = 'value'
+
     def load_action(self, yaml_path):
         with open(yaml_path, encoding="UTF-8") as f:
             data = yaml.load(f)
         for step in data:
-            xpath_expr = step.get("find")
-            action = step.get('action')
-            set_value = step.get('value')
-            if action == "find_and_click":
+            xpath_expr = step.get(self.FIND)
+            action = step.get(self.ACTION)
+            set_value = step.get(self.VALYUE)
+            if action == self.FIND_AND_CLICK:
                 self.find_and_click(MobileBy.XPATH, xpath_expr)
-            elif action == "send_keys":
+            elif action == self.SEND_KEYS:
                 self.find(MobileBy.XPATH, xpath_expr).send_keys(set_value)
+
+    def screen_shot(self):
+        codes = time.strftime("%m%d%H%M%S", time.localtime())
+        img_path = "../image/" + codes + ".png"
+        self.driver.save_screenshot(img_path)
+        return img_path
