@@ -1,34 +1,24 @@
 # -*- coding: utf-8 -*-
+import yaml
 from appium.webdriver.common.mobileby import MobileBy
 from appium.webdriver.webdriver import WebDriver
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
 
-from test_frame.black_list import BlackList
+from test_frame.adorner import balck_wrapper
 
 
 class BasePage:
     def __init__(self, base_driver: WebDriver = None):
         self.driver = base_driver
-        self.black_list = BlackList().get_black_list()
+        # self.black_list = BlackList().get_black_list()
 
+    @balck_wrapper
     def find(self, mystype, myvalue=None):
-        try:
-            if myvalue is None:
-                return self.driver.find_element(*mystype)
-            else:
-                return self.driver.find_element(by=mystype, value=myvalue)
-        except Exception as e:
-            for black in self.black_list:
-                eles = self.finds(black)
-                if len(eles) > 0:
-                    # 对黑名单元素进行点击，可以拓展
-                    eles[0].click()
-                    if myvalue is None:
-                        return self.driver.find_element(*mystype)
-                    else:
-                        return self.driver.find_element(by=mystype, value=myvalue)
-            raise e
+        if myvalue is None:
+            return self.driver.find_element(*mystype)
+        else:
+            return self.driver.find_element(by=mystype, value=myvalue)
 
     def find_and_click(self, mystype, myvalue=None):
         self.find(mystype, myvalue).click()
@@ -68,3 +58,15 @@ class BasePage:
             eles = self.driver.find_elements(by, locator)
         self.driver.implicitly_wait(5)
         return eles[0]
+
+    def load_action(self, yaml_path):
+        with open(yaml_path, encoding="UTF-8") as f:
+            data = yaml.load(f)
+        for step in data:
+            xpath_expr = step.get("find")
+            action = step.get('action')
+            set_value = step.get('value')
+            if action == "find_and_click":
+                self.find_and_click(MobileBy.XPATH, xpath_expr)
+            elif action == "send_keys":
+                self.find(MobileBy.XPATH, xpath_expr).send_keys(set_value)
