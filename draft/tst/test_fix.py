@@ -1,6 +1,4 @@
 # -*- coding: utf-8 -*-
-import pytest
-import yaml
 
 
 class Test_firstFile():

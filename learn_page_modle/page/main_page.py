@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
 from selenium.webdriver.common.by import By
-from draft.learn_page_modle.page.adduser_page import AddUserPage
-from draft.learn_page_modle.page.base_page import BasePage
-from draft.learn_page_modle.page.contact_page import ContactPage
+
+from learn_page_modle.page import BasePage
+from learn_page_modle.page import ContactPage
+from learn_page_modle.page.adduser_page import AddUserPage
 
 
 class MainPage(BasePage):

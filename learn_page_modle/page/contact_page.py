@@ -4,7 +4,6 @@ import time
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions
 from selenium.webdriver.support.wait import WebDriverWait
-from draft.learn_page_modle.page.base_page import BasePage
 
 
 class ContactPage(BasePage):
@@ -36,7 +35,7 @@ class ContactPage(BasePage):
         跳转到添加用户页面
         :return:AddUserPage类，即添加用户页面
         '''
-        from draft.learn_page_modle.page.adduser_page import AddUserPage
+        from learn_page_modle.page.adduser_page import AddUserPage
         WebDriverWait(self.dr, 9).until(expected_conditions.element_to_be_clickable(self._location_button_adduser))
         self.find(*self._location_button_adduser).click()
         return AddUserPage(self.dr)

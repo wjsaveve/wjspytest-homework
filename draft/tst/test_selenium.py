@@ -1,10 +1,10 @@
-import selenium
 import time
+from time import sleep
+
 import yaml
 from selenium import webdriver
 from selenium.webdriver import ActionChains
 from selenium.webdriver.common.by import By
-from time import sleep
 
 
 class TestSelenium():

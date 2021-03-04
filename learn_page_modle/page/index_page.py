@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-from draft.learn_page_modle.page.login_page import LoginPage
-from draft.learn_page_modle.page.register_page import RegisterPage
+from learn_page_modle.page import LoginPage
+from learn_page_modle.page import RegisterPage
 
 
 class IndexPage:

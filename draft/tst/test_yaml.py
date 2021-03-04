@@ -9,7 +9,7 @@ def add_function(a, b):
 
 
 @pytest.mark.parametrize("a,b,expected",
-                         yaml.safe_load(open("./mydata.yml"))["datas"],
-                         ids=yaml.safe_load(open("./mydata.yml"))["myid"])
+                         yaml.safe_load(open("mydata.yml"))["datas"],
+                         ids=yaml.safe_load(open("mydata.yml"))["myid"])
 def test_add(a, b, expected):
     assert add_function(a, b) == expected
