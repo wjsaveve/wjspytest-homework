@@ -1,14 +1,14 @@
 # -*- coding: utf-8 -*-
 # 创建时间：2021/4/18 15:15
-import allure
 import configparser
 import os
 import time
 import unittest
 
+import allure
 from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.keys import Keys
 
 
 @allure.feature('Test Baidu WebUI')
@@ -17,10 +17,7 @@ class ISelenium(unittest.TestCase):
     def get_config(self):
         config = configparser.ConfigParser()
         # windows写法
-        # print("看一下地址")
-        # print(os.path.join('C:', os.environ['HOMEPATH'], 'iselenium.ini'))
         config.read(os.path.join('C:', os.environ['HOMEPATH'], 'iselenium.ini'))
-        # config.read(os.path.join(os.environ['HOMEPATH'], 'iselenium.ini'))
         # 在liunux中是这么写
         # config.read(os.path.join(os.environ['HOME'], 'iselenium.ini'))
         return config
@@ -43,8 +40,6 @@ class ISelenium(unittest.TestCase):
             print('使用无界面方式运行')
             chrome_options.add_argument("--headless")
 
-        print("测试一下")
-        print(config.get('driver', 'chrome_driver'))
         self.driver = webdriver.Chrome(executable_path=config.get('driver', 'chrome_driver'),
                                        options=chrome_options)
         # self.driver = webdriver.Chrome()
@@ -70,6 +65,7 @@ class ISelenium(unittest.TestCase):
         """
 
         self.driver.get("https://www.baidu.com")
+        self.driver.maximize_window()
         print('打开浏览器，访问 www.baidu.com')
         time.sleep(5)
         assert f'百度一下' in self.driver.title
