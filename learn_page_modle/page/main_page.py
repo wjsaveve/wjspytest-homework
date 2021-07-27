@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
 from selenium.webdriver.common.by import By
 
-from learn_page_modle.page import BasePage
-from learn_page_modle.page import ContactPage
+from learn_page_modle.page import base_page
+from learn_page_modle.page import contact_page
 from learn_page_modle.page.adduser_page import AddUserPage
 
 
-class MainPage(BasePage):
+class MainPage(base_page):
     _location_button_adduser = (By.CSS_SELECTOR, ".ww_indexImg_AddMember")
     _location_button_contactlink = (By.ID, "menu_contacts")
 
@@ -16,7 +16,7 @@ class MainPage(BasePage):
         :return:ContactPage类，即通讯录页面
         '''
         self.find(*self._location_button_contactlink).click()
-        return ContactPage(self.dr)
+        return contact_page(self.dr)
 
     def goto_AddUserPage(self):
         '''
