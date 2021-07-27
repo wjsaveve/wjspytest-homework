@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from learn_page_modle.page import IndexPage
+from learn_page_modle.page.index_page import IndexPage
 
 
 class TestIndex:

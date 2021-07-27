@@ -3,7 +3,7 @@ import logging
 
 import allure
 
-from test_frame.black_list import BlackList
+from simple_framework.basics.black_list import BlackList
 
 
 # logging.basicConfig(level=logging.INFO)

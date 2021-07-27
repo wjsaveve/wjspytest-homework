@@ -1,9 +1,8 @@
 # -*- coding: utf-8 -*-
-from appium.webdriver.common.mobileby import MobileBy
-
+from selenium.webdriver.common.by import By
 
 class BlackList:
-    __black_list = [(MobileBy.XPATH, "//android.widget.ImageView[@resource-id='com.xueqiu.android:id/iv_close']")]
+    __black_list = [(By.CSS_SELECTOR, ".index_head_info_pCDownloadBtn")]
 
     def get_black_list(self):
         return self.__black_list
